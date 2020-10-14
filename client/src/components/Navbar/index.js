@@ -8,7 +8,7 @@ class NavTabs extends Component {
     render() {
         return (
             <Container>
-                <Navbar expand="lg" variant="light" bg="light">
+                <Navbar sticky="top" expand="lg" variant="light" bg="light">
                     <Nav className="container navbar justify-content-end flex-column flex-sm-row" activeKey="/home">
                         <Nav.Item>
                             <Nav.Link href="/home">Home</Nav.Link>
@@ -19,7 +19,7 @@ class NavTabs extends Component {
                         <Nav.Item>
                             <Nav.Link href="/Contact">Contact</Nav.Link>
                         </Nav.Item>
-                        <a className="resume" href="client\src\components\Documents\resume.pdf" target="_blank">Resume</a>
+                        <a className="resume" href="client\src\components\Documents\resume.pdf" rel="noopener noreferrer" target="_blank">Resume</a>
 
 
                     </Nav>

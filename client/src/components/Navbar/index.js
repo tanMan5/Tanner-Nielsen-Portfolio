@@ -1,26 +1,30 @@
 import React, { Component } from 'react';
-import Nav from 'react-bootstrap/Nav'
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import Container from 'react-bootstrap/Container';
+import './style.css';
 
 class NavTabs extends Component {
     render() {
         return (
-            
-            <Nav className="container navbar justify-content-end flex-column flex-sm-row" activeKey="/home">
-            <Nav.Item>
-              <Nav.Link href="/home">Active</Nav.Link>
-            </Nav.Item>
-            <Nav.Item>
-              <Nav.Link eventKey="link-1">Link</Nav.Link>
-            </Nav.Item>
-            <Nav.Item>
-              <Nav.Link eventKey="link-2">Link</Nav.Link>
-            </Nav.Item>
-            <Nav.Item>
-              <Nav.Link eventKey="disabled" disabled>
-                Disabled
-              </Nav.Link>
-            </Nav.Item>
-          </Nav>
+            <Container>
+                <Navbar expand="lg" variant="light" bg="light">
+                    <Nav className="container navbar justify-content-end flex-column flex-sm-row" activeKey="/home">
+                        <Nav.Item>
+                            <Nav.Link href="/home">Home</Nav.Link>
+                        </Nav.Item>
+                        <Nav.Item>
+                            <Nav.Link href="/Projects">Projects</Nav.Link>
+                        </Nav.Item>
+                        <Nav.Item>
+                            <Nav.Link href="/Contact">Contact</Nav.Link>
+                        </Nav.Item>
+                        <a className="resume" href="client\src\components\Documents\resume.pdf" target="_blank">Resume</a>
+
+
+                    </Nav>
+                </Navbar>
+            </Container>
         )
     }
 }

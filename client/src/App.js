@@ -6,6 +6,7 @@ import "./App.css";
 import NavTabs from "./components/Navbar";
 import Home from './pages/Home';
 import Contact from './pages/Contact';
+import Projects from './pages/Projects'
 import Footer from './components/Footer';
 
 
@@ -15,7 +16,7 @@ function App() {
       <Router>
           <NavTabs />
           <Route exact path="/" component={Home} />
-          
+          <Route path="/projects" component={Projects} />
           <Route path="/contact" component={Contact} />
       </Router>
       <Footer />

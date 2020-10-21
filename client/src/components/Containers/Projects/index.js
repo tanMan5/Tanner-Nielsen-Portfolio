@@ -20,7 +20,81 @@ function ProjectContainer() {
                        <a target="blank" href="https://github.com/tanman5/07-project-01" class="project">
                        <h4>GitHub Repository</h4>
                        </a>
+                   </div>
+                   </div>
 
+                   <div class="col-md-6 col-lg-6 d-flex justify-content-center images">
+                   <img class="img-thumbnail projectOne" src="./assets/images/Quizzical.png" alt="Quizzical" />
+                   <div class="hoverOver">
+                       <h3>Project 1: Quizzical</h3>
+                       <a target="blank" href="https://tanman5.github.io/07-project-01/" class="project">
+                           <h4>Deployed</h4>
+                       </a>
+                       <>
+                       </>
+                       <a target="blank" href="https://github.com/tanman5/07-project-01" class="project">
+                       <h4>GitHub Repository</h4>
+                       </a>
+                   </div>
+                   </div>
+
+                   <div class="col-md-6 col-lg-6 d-flex justify-content-center images">
+                   <img class="img-thumbnail projectOne" src="./assets/images/Quizzical.png" alt="Quizzical" />
+                   <div class="hoverOver">
+                       <h3>Project 1: Quizzical</h3>
+                       <a target="blank" href="https://tanman5.github.io/07-project-01/" class="project">
+                           <h4>Deployed</h4>
+                       </a>
+                       <>
+                       </>
+                       <a target="blank" href="https://github.com/tanman5/07-project-01" class="project">
+                       <h4>GitHub Repository</h4>
+                       </a>
+                   </div>
+                   </div>
+
+                   <div class="col-md-6 col-lg-6 d-flex justify-content-center images">
+                   <img class="img-thumbnail projectOne" src="./assets/images/Quizzical.png" alt="Quizzical" />
+                   <div class="hoverOver">
+                       <h3>Project 1: Quizzical</h3>
+                       <a target="blank" href="https://tanman5.github.io/07-project-01/" class="project">
+                           <h4>Deployed</h4>
+                       </a>
+                       <>
+                       </>
+                       <a target="blank" href="https://github.com/tanman5/07-project-01" class="project">
+                       <h4>GitHub Repository</h4>
+                       </a>
+                   </div>
+                   </div>
+
+                   <div class="col-md-6 col-lg-6 d-flex justify-content-center images">
+                   <img class="img-thumbnail projectOne" src="./assets/images/Quizzical.png" alt="Quizzical" />
+                   <div class="hoverOver">
+                       <h3>Project 1: Quizzical</h3>
+                       <a target="blank" href="https://tanman5.github.io/07-project-01/" class="project">
+                           <h4>Deployed</h4>
+                       </a>
+                       <>
+                       </>
+                       <a target="blank" href="https://github.com/tanman5/07-project-01" class="project">
+                       <h4>GitHub Repository</h4>
+                       </a>
+                   </div>
+                   </div>
+
+                   <div class="col-md-6 col-lg-6 d-flex justify-content-center images">
+                   <img class="img-thumbnail projectOne" src="./assets/images/Quizzical.png" alt="Quizzical" />
+                   <div class="hoverOver">
+                       <h3>Project 1: Quizzical</h3>
+                       <a target="blank" href="https://tanman5.github.io/07-project-01/" class="project">
+                           <h4>Deployed</h4>
+                       </a>
+                       <>
+                       </>
+                       <a target="blank" href="https://github.com/tanman5/07-project-01" class="project">
+                       <h4>GitHub Repository</h4>
+                       </a>
                    </div>
                    </div>
                </article>

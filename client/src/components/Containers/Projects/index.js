@@ -1,105 +1,162 @@
 import React from 'react';
 import Container from 'react-bootstrap/esm/Container';
+import Card from 'react-bootstrap/Card';
+import CardDeck from 'react-bootstrap/CardDeck';
+import Image from "../../img/Quizzical.png";
+import Image2 from "../../img/bookTracker.png";
+import Image3 from "../../img/groundUp.png";
+import Image4 from "../../img/passwordGenerator.png";
+import Image5 from "../../img/project6.jpeg";
+import Image6 from "../../img/project6.jpeg";
+
+
+
 
 function ProjectContainer() {
     return (
         <Container>
-           <section class="portfolio">
-               <h1 class="block-header portfolioheader">Portfolio</h1>
-               <hr />
-               <article class="row mt-4">
-                   <div class="col-md-6 col-lg-6 d-flex justify-content-center images">
-                   <img class="img-thumbnail projectOne" src="client\src\components\img\Quizzical.png" alt="Quizzical" />
-                   <div class="hoverOver">
-                       <h3>Project 1: Quizzical</h3>
-                       <a target="blank" href="https://tanman5.github.io/07-project-01/" class="project">
-                           <h4>Deployed</h4>
-                       </a>
-                       <>
-                       </>
-                       <a target="blank" href="https://github.com/tanman5/07-project-01" class="project">
-                       <h4>GitHub Repository</h4>
-                       </a>
-                   </div>
-                   </div>
+            <section class="firstThree">
+                <h1 class="block-header portfolioheader">Portfolio</h1>
+                <hr />
+                <CardDeck>
+                    <Card>
+                        <Card.Img src={Image} alt="Quizzical" />
+                        <Card.ImgOverlay>
+                        <Card.Body>
+                            <Card.Title>Quizzical</Card.Title>
+                            <Card.Text>
+                                description
+                            </Card.Text>
+                        </Card.Body>
+                        </Card.ImgOverlay>
+                        <Card.Footer>
+                            <small className="text-muted">
+                                <span>
+                                    <a target="blank" href="https://tanman5.github.io/07-project-01/" class="project">
+                                        <h6>Deployed</h6>
+                                    </a>
+                                    <a target="blank" href="https://github.com/tanman5/07-project-01" class="project">
+                                        <h6>GitHub Repository</h6>
+                                    </a>
+                                </span>
+                            </small>
+                        </Card.Footer>
+                    </Card>
+                    <Card>
+                        <Card.Img variant="top" src={Image2} alt="Book Tracker" />
+                        <Card.Body>
+                            <Card.Title>Book Tracker</Card.Title>
+                            <Card.Text>
+                                description
+                        </Card.Text>
+                        </Card.Body>
+                        <Card.Footer>
+                            <small className="text-muted">
+                                <span>
+                                    <a target="blank" href="https://book-trackerapp.herokuapp.com/" class="project">
+                                        <h6>Deployed</h6>
+                                    </a>
+                                    <a target="blank" href="https://github.com/tanMan5/Library-App" class="project">
+                                        <h6>GitHub Repository</h6>
+                                    </a>
+                                </span>
+                            </small>
+                        </Card.Footer>
+                    </Card>
+                    <Card>
+                        <Card.Img variant="top" src={Image3} alt="GroudUp" />
+                        <Card.Body>
+                            <Card.Title>GroundUp</Card.Title>
+                            <Card.Text>
+                                description
+                        </Card.Text>
+                        </Card.Body>
+                        <Card.Footer>
+                            <small className="text-muted">
+                                <span>
+                                    <a target="blank" href="https://infinite-coast-64919.herokuapp.com/" class="project">
+                                        <h6>Deployed</h6>
+                                    </a>
+                                    <a target="blank" href="https://github.com/tanMan5/project3-groundup" class="project">
+                                        <h6>GitHub Repository</h6>
+                                    </a>
+                                </span>
+                            </small>
+                        </Card.Footer>
+                    </Card>
+                </CardDeck>
+                <br />
+                <CardDeck>
+                    <Card>
+                        <Card.Img variant="top" src={Image4} alt="Quizzical" />
+                        <Card.Body>
+                            <Card.Title>Password Generator</Card.Title>
+                            <Card.Text>
+                                description
+                        </Card.Text>
+                        </Card.Body>
+                        <Card.Footer>
+                            <small className="text-muted">
+                                <span>
+                                    <a target="blank" href="https://tanman5.github.io/Password-Generator/" class="project">
+                                        <h6>Deployed</h6>
+                                    </a>
+                                    <a target="blank" href="https://github.com/tanMan5/Password-Generator" class="project">
+                                        <h6>GitHub Repository</h6>
+                                    </a>
+                                </span>
+                            </small>
+                        </Card.Footer>
+                    </Card>
+                    <Card>
+                        <Card.Img variant="top" src={Image5} alt="Book Tracker" />
+                        <Card.Body>
+                            <Card.Title>Employee Tracker</Card.Title>
+                            <Card.Text>
+                                description
+                        </Card.Text>
+                        </Card.Body>
+                        <Card.Footer>
+                            <small className="text-muted">
+                                <span>
+                                    <a target="blank" href="https://tanman5.github.io/HW19.employeesDirectory/" class="project">
+                                        <h6>Deployed</h6>
+                                    </a>
+                                    <a target="blank" href="https://github.com/tanMan5/HW19.employeesDirectory" class="project">
+                                        <h6>GitHub Repository</h6>
+                                    </a>
+                                </span>
+                            </small>
+                        </Card.Footer>
+                    </Card>
 
-                   <div class="col-md-6 col-lg-6 d-flex justify-content-center images">
-                   <img class="img-thumbnail projectTwo" src="./assets/images/Quizzical.png" alt="Book-Tracker" />
-                   <div class="hoverOver">
-                       <h3>Project 2: Book Tracker</h3>
-                       <a target="blank" href="https://book-trackerapp.herokuapp.com/" class="project">
-                           <h4>Deployed</h4>
-                       </a>
-                       <>
-                       </>
-                       <a target="blank" href="https://github.com/tanMan5/Library-App" class="project">
-                       <h4>GitHub Repository</h4>
-                       </a>
-                   </div>
-                   </div>
+                    <Card>
 
-                   <div class="col-md-6 col-lg-6 d-flex justify-content-center images">
-                   <img class="img-thumbnail projectThree" src="./assets/images/Quizzical.png" alt="Ground Up" />
-                   <div class="hoverOver">
-                       <h3>Project 3: GroundUp</h3>
-                       <a target="blank" href="https://infinite-coast-64919.herokuapp.com/" class="project">
-                           <h4>Deployed</h4>
-                       </a>
-                       <>
-                       </>
-                       <a target="blank" href="https://github.com/tanMan5/project3-groundup" class="project">
-                       <h4>GitHub Repository</h4>
-                       </a>
-                   </div>
-                   </div>
+                        <Card.Img variant="top" src={Image6} alt="GroudUp" />
+                        <Card.Body>
+                            <Card.Title>Eat Da Burger</Card.Title>
+                            <Card.Text>
+                                description
+                        </Card.Text>
+                        </Card.Body>
+                        <Card.Footer>
+                            <small className="text-muted">
+                                <span>
+                                    <a target="blank" href="https://limitless-badlands-47193.herokuapp.com/" class="project">
+                                        <h6>Deployed</h6>
+                                    </a>
+                                    <a target="blank" href="https://github.com/tanMan5/HW13.Burger" class="project">
+                                        <h6>GitHub Repository</h6>
+                                    </a>
+                                </span>
+                            </small>
+                        </Card.Footer>
 
-                   <div class="col-md-6 col-lg-6 d-flex justify-content-center images">
-                   <img class="img-thumbnail hw" src="./assets/images/Quizzical.png" alt="Eat Da Burger" />
-                   <div class="hoverOver">
-                       <h3>HW: Eat Da Burger</h3>
-                       <a target="blank" href="https://limitless-badlands-47193.herokuapp.com/" class="hw">
-                           <h4>Deployed</h4>
-                       </a>
-                       <>
-                       </>
-                       <a target="blank" href="https://github.com/tanMan5/HW13.Burger" class="hw">
-                       <h4>GitHub Repository</h4>
-                       </a>
-                   </div>
-                   </div>
-
-                   <div class="col-md-6 col-lg-6 d-flex justify-content-center images">
-                   <img class="img-thumbnail hw" src="./assets/images/Quizzical.png" alt="Password Generator" />
-                   <div class="hoverOver">
-                       <h3>HW: Password-Generator</h3>
-                       <a target="blank" href="https://tanman5.github.io/Password-Generator/" class="hw">
-                           <h4>Deployed</h4>
-                       </a>
-                       <>
-                       </>
-                       <a target="blank" href="https://github.com/tanMan5/Password-Generator" class="hw">
-                       <h4>GitHub Repository</h4>
-                       </a>
-                   </div>
-                   </div>
-
-                   <div class="col-md-6 col-lg-6 d-flex justify-content-center images">
-                   <img class="img-thumbnail hw" src="./assets/images/Quizzical.png" alt="Employee Directory" />
-                   <div class="hoverOver">
-                       <h3>HW: Employee Directory</h3>
-                       <a target="blank" href="https://tanman5.github.io/HW19.employeesDirectory/" class="hw">
-                           <h4>Deployed</h4>
-                       </a>
-                       <>
-                       </>
-                       <a target="blank" href="https://github.com/tanMan5/HW19.employeesDirectory" class="hw">
-                       <h4>GitHub Repository</h4>
-                       </a>
-                   </div>
-                   </div>
-               </article>
-           </section>
+                    </Card>
+                </CardDeck>
+            </section>
         </Container>
     )
-}
+};
+
 export default ProjectContainer;

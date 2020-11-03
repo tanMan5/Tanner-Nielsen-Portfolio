@@ -11,7 +11,7 @@ class NavTabs extends Component {
                 <Navbar sticky="top" expand="lg" variant="light" bg="light">
                     <Nav className="container navbar justify-content-end flex-column flex-sm-row" activeKey="/home">
                         <Nav.Item>
-                            <Nav.Link href="/home">Home</Nav.Link>
+                            <Nav.Link href="/">Home</Nav.Link>
                         </Nav.Item>
                         <Nav.Item>
                             <Nav.Link href="/Projects">Projects</Nav.Link>

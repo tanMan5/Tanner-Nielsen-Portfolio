@@ -2,7 +2,8 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 function HomeContainer() {
     return (
-        <Container fluid>
+        <Container>
+
             <div className="banner-text">
                 <h1>Full Stack Developer</h1>
                 <hr />

@@ -19,8 +19,9 @@ function ProjectContainer() {
         <Container>
             <section class="firstThree">
                 <Row className="justify-content-md-center">
-                <h1 className="block-header justify-content-md-center portfolioheader">Portfolio</h1>
+                <h1>Portfolio</h1>
                 </Row>
+                <hr />
                 
                 <CardColumns>
                 {/* <CardDeck> */}

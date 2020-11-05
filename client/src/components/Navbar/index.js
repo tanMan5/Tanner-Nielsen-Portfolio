@@ -3,6 +3,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Container from 'react-bootstrap/Container';
 import './style.css';
+import Pdf from '../../Documents/resume.pdf';
 
 class NavTabs extends Component {
     render() {
@@ -19,8 +20,9 @@ class NavTabs extends Component {
                         <Nav.Item>
                             <Nav.Link href="/Contact">Contact</Nav.Link>
                         </Nav.Item>
-                        <a className="resume" href="client\src\components\Documents\resume.pdf" rel="noopener noreferrer" target="_blank">Resume</a>
-
+                        <Nav.Item>
+                        <a className="resume" href={Pdf} rel="noopener noreferrer" target="_blank">Resume</a>
+                        </Nav.Item>
 
                     </Nav>
                 </Navbar>

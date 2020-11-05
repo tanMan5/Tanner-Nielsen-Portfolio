@@ -2,11 +2,12 @@ import React from 'react';
 import Container from 'react-bootstrap/esm/Container';
 import Card from 'react-bootstrap/Card';
 import CardDeck from 'react-bootstrap/CardDeck';
+import CardColumns from 'react-bootstrap/CardColumns'
 import Image from "../../img/Quizzical.png";
 import Image2 from "../../img/bookTracker.png";
 import Image3 from "../../img/groundUp.png";
 import Image4 from "../../img/passwordGenerator.png";
-import Image5 from "../../img/project6.jpeg";
+import Image5 from "../../img/employeeDirectory.png";
 import Image6 from "../../img/project6.jpeg";
 
 
@@ -18,18 +19,16 @@ function ProjectContainer() {
             <section class="firstThree">
                 <h1 class="block-header portfolioheader">Portfolio</h1>
                 <hr />
-                <CardDeck>
-                    <Card>
-                        <Card.Img src={Image} alt="Quizzical" />
-                        <Card.ImgOverlay>
-                        <Card.Body>
-                            <Card.Title>Quizzical</Card.Title>
+                <CardColumns>
+                {/* <CardDeck> */}
+                    <Card style={{ borderTopRightRadius: 10, borderTopLeftRadius: 10  }}>
+                        <Card.Img style={{ borderTopRightRadius: 10, borderTopLeftRadius: 10  }} variant="top" src={Image} alt="Quizzical" />
+                        
+                        <Card.Footer>
+                        <Card.Title>Quizzical</Card.Title>
                             <Card.Text>
                                 description
                             </Card.Text>
-                        </Card.Body>
-                        </Card.ImgOverlay>
-                        <Card.Footer>
                             <small className="text-muted">
                                 <span>
                                     <a target="blank" href="https://tanman5.github.io/07-project-01/" class="project">
@@ -39,6 +38,7 @@ function ProjectContainer() {
                                         <h6>GitHub Repository</h6>
                                     </a>
                                 </span>
+                                <p>blah</p>
                             </small>
                         </Card.Footer>
                     </Card>
@@ -84,7 +84,8 @@ function ProjectContainer() {
                             </small>
                         </Card.Footer>
                     </Card>
-                </CardDeck>
+                {/* </CardDeck> */}
+                </CardColumns>
                 <br />
                 <CardDeck>
                     <Card>

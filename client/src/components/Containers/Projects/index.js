@@ -1,7 +1,7 @@
 import React from 'react';
 import Container from 'react-bootstrap/esm/Container';
 import Card from 'react-bootstrap/Card';
-import CardDeck from 'react-bootstrap/CardDeck';
+import Row from 'react-bootstrap/Row';
 import CardColumns from 'react-bootstrap/CardColumns'
 import Image from "../../img/Quizzical.png";
 import Image2 from "../../img/bookTracker.png";
@@ -9,6 +9,7 @@ import Image3 from "../../img/groundUp.png";
 import Image4 from "../../img/passwordGenerator.png";
 import Image5 from "../../img/employeeDirectory.png";
 import Image6 from "../../img/project6.jpeg";
+import "./style.css";
 
 
 
@@ -17,8 +18,10 @@ function ProjectContainer() {
     return (
         <Container>
             <section class="firstThree">
-                <h1 class="block-header portfolioheader">Portfolio</h1>
-                <hr />
+                <Row className="justify-content-md-center">
+                <h1 className="block-header justify-content-md-center portfolioheader">Portfolio</h1>
+                </Row>
+                
                 <CardColumns>
                 {/* <CardDeck> */}
                     <Card style={{ borderTopRightRadius: 10, borderTopLeftRadius: 10  }}>

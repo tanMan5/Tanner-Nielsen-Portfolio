@@ -22,7 +22,7 @@ function ProjectContainer() {
                 <CardColumns>
                 {/* <CardDeck> */}
                     <Card style={{ borderTopRightRadius: 10, borderTopLeftRadius: 10  }}>
-                        <Card.Img style={{ borderTopRightRadius: 10, borderTopLeftRadius: 10  }} variant="top" src={Image} alt="Quizzical" />
+                        <Card.Img style={{ borderTopRightRadius: 10, borderTopLeftRadius: 10, height: 300   }} variant="top" src={Image} alt="Quizzical" />
                         
                         <Card.Footer>
                         <Card.Title>Quizzical</Card.Title>
@@ -38,19 +38,18 @@ function ProjectContainer() {
                                         <h6>GitHub Repository</h6>
                                     </a>
                                 </span>
-                                <p>blah</p>
+                                
                             </small>
                         </Card.Footer>
                     </Card>
-                    <Card>
-                        <Card.Img variant="top" src={Image2} alt="Book Tracker" />
-                        <Card.Body>
-                            <Card.Title>Book Tracker</Card.Title>
+                    <Card style={{ borderTopRightRadius: 10, borderTopLeftRadius: 10  }}>
+                        <Card.Img style={{ borderTopRightRadius: 10, borderTopLeftRadius: 10, height: 300   }}  variant="top" src={Image2} alt="Book Tracker"  />
+                        
+                        <Card.Footer>
+                        <Card.Title>Book Tracker</Card.Title>
                             <Card.Text>
                                 description
-                        </Card.Text>
-                        </Card.Body>
-                        <Card.Footer>
+                            </Card.Text>
                             <small className="text-muted">
                                 <span>
                                     <a target="blank" href="https://book-trackerapp.herokuapp.com/" class="project">
@@ -63,15 +62,14 @@ function ProjectContainer() {
                             </small>
                         </Card.Footer>
                     </Card>
-                    <Card>
-                        <Card.Img variant="top" src={Image3} alt="GroudUp" />
-                        <Card.Body>
-                            <Card.Title>GroundUp</Card.Title>
+                    <Card style={{ borderTopRightRadius: 10, borderTopLeftRadius: 10  }}>
+                        <Card.Img style={{ borderTopRightRadius: 10, borderTopLeftRadius: 10, height: 300   }}  variant="top" src={Image3} alt="GroudUp"  />
+                        
+                        <Card.Footer>
+                        <Card.Title>GroundUp</Card.Title>
                             <Card.Text>
                                 description
-                        </Card.Text>
-                        </Card.Body>
-                        <Card.Footer>
+                            </Card.Text>
                             <small className="text-muted">
                                 <span>
                                     <a target="blank" href="https://infinite-coast-64919.herokuapp.com/" class="project">
@@ -84,6 +82,8 @@ function ProjectContainer() {
                             </small>
                         </Card.Footer>
                     </Card>
+                    
+                    
                 {/* </CardDeck> */}
                 </CardColumns>
                 <br />

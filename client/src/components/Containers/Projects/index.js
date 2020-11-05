@@ -87,16 +87,16 @@ function ProjectContainer() {
                 {/* </CardDeck> */}
                 </CardColumns>
                 <br />
-                <CardDeck>
-                    <Card>
-                        <Card.Img variant="top" src={Image4} alt="Quizzical" />
-                        <Card.Body>
-                            <Card.Title>Password Generator</Card.Title>
+                <CardColumns>
+                {/* <CardDeck> */}
+                    <Card style={{ borderTopRightRadius: 10, borderTopLeftRadius: 10  }}>
+                        <Card.Img style={{ borderTopRightRadius: 10, borderTopLeftRadius: 10, height: 300   }} variant="top" src={Image4} alt="Password Generator"  />
+                        
+                        <Card.Footer>
+                        <Card.Title>Password Generator</Card.Title>
                             <Card.Text>
                                 description
-                        </Card.Text>
-                        </Card.Body>
-                        <Card.Footer>
+                            </Card.Text>
                             <small className="text-muted">
                                 <span>
                                     <a target="blank" href="https://tanman5.github.io/Password-Generator/" class="project">
@@ -109,15 +109,14 @@ function ProjectContainer() {
                             </small>
                         </Card.Footer>
                     </Card>
-                    <Card>
-                        <Card.Img variant="top" src={Image5} alt="Book Tracker" />
-                        <Card.Body>
-                            <Card.Title>Employee Tracker</Card.Title>
+                    <Card style={{ borderTopRightRadius: 10, borderTopLeftRadius: 10  }}>
+                        <Card.Img style={{ borderTopRightRadius: 10, borderTopLeftRadius: 10, height: 300   }}  variant="top" src={Image5} alt="Employee Tracker"   />
+                        
+                        <Card.Footer>
+                        <Card.Title>Employee Tracker</Card.Title>
                             <Card.Text>
                                 description
-                        </Card.Text>
-                        </Card.Body>
-                        <Card.Footer>
+                            </Card.Text>
                             <small className="text-muted">
                                 <span>
                                     <a target="blank" href="https://tanman5.github.io/HW19.employeesDirectory/" class="project">
@@ -130,17 +129,14 @@ function ProjectContainer() {
                             </small>
                         </Card.Footer>
                     </Card>
-
-                    <Card>
-
-                        <Card.Img variant="top" src={Image6} alt="GroudUp" />
-                        <Card.Body>
-                            <Card.Title>Eat Da Burger</Card.Title>
+                    <Card style={{ borderTopRightRadius: 10, borderTopLeftRadius: 10  }}>
+                        <Card.Img style={{ borderTopRightRadius: 10, borderTopLeftRadius: 10, height: 300   }} variant="top" src={Image6} alt="Eat Da Burger"  />
+                        
+                        <Card.Footer>
+                        <Card.Title>Eat Da Burger</Card.Title>
                             <Card.Text>
                                 description
-                        </Card.Text>
-                        </Card.Body>
-                        <Card.Footer>
+                            </Card.Text>
                             <small className="text-muted">
                                 <span>
                                     <a target="blank" href="https://limitless-badlands-47193.herokuapp.com/" class="project">
@@ -152,9 +148,12 @@ function ProjectContainer() {
                                 </span>
                             </small>
                         </Card.Footer>
-
                     </Card>
-                </CardDeck>
+                    
+                    
+                {/* </CardDeck> */}
+                </CardColumns>
+                
             </section>
         </Container>
     )

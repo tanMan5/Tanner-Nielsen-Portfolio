@@ -12,16 +12,16 @@ class NavTabs extends Component {
                 <Navbar sticky="top" expand="lg" variant="light" bg="light">
                     <Nav className="container navbar justify-content-end flex-column flex-sm-row" activeKey="/home">
                         <Nav.Item>
-                            <Nav.Link href="/">Home</Nav.Link>
+                            <Nav.Link style={{ color: "rgb(175, 229, 233)" }} href="/">Home</Nav.Link>
                         </Nav.Item>
                         <Nav.Item>
-                            <Nav.Link href="/Projects">Projects</Nav.Link>
+                            <Nav.Link style={{ color: "rgb(175, 229, 233)" }} href="/Projects">Projects</Nav.Link>
                         </Nav.Item>
                         <Nav.Item>
-                            <Nav.Link href="/Contact">Contact</Nav.Link>
+                            <Nav.Link style={{ color: "rgb(175, 229, 233)" }} href="/Contact">Contact</Nav.Link>
                         </Nav.Item>
                         <Nav.Item>
-                        <a className="resume" href={Pdf} rel="noopener noreferrer" target="_blank">Resume</a>
+                        <a  class="resume" href={Pdf} rel="noopener noreferrer" target="_blank">Resume</a>
                         </Nav.Item>
 
                     </Nav>

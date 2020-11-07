@@ -25,8 +25,8 @@ function ProjectContainer() {
                 
                 <CardColumns>
                 {/* <CardDeck> */}
-                    <Card style={{ borderTopRightRadius: 10, borderTopLeftRadius: 10  }}>
-                        <Card.Img style={{ borderTopRightRadius: 10, borderTopLeftRadius: 10, height: 300   }} variant="top" src={Image} alt="Quizzical" />
+                    <Card  style={{ borderTopRightRadius: 10, borderTopLeftRadius: 10  }}>
+                        <Card.Img style={{ borderTopRightRadius: 10, borderTopLeftRadius: 10, height: 300 }} variant="top" src={Image} alt="Quizzical" />
                         
                         <Card.Footer>
                         <Card.Title>Quizzical</Card.Title>

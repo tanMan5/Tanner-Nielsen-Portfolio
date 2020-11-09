@@ -8,8 +8,9 @@ import Pdf from '../../Documents/resume.pdf';
 class NavTabs extends Component {
     render() {
         return (
-            <Container>
-                <Navbar sticky="top" expand="lg" variant="light" bg="light">
+            // <Container>
+                // <Navbar sticky="top" expand="lg" variant="light" bg="light">
+                <div className="global-nav">
                     <Nav className="container navbar justify-content-end flex-column flex-sm-row" activeKey="/home">
                         <Nav.Item>
                             <Nav.Link style={{ color: "rgb(175, 229, 233)" }} href="/">Home</Nav.Link>
@@ -25,8 +26,9 @@ class NavTabs extends Component {
                         </Nav.Item>
 
                     </Nav>
-                </Navbar>
-            </Container>
+                    </div>
+                 // </Navbar> 
+            // </Container>
         )
     }
 }

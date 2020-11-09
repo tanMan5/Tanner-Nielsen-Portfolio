@@ -1,3 +1,7 @@
+#root {
+  background: linear-gradient(180deg, rgb(59, 102, 85), rgb(83, 150, 146), rgb(83, 120, 146),  rgb(59, 102, 85) 100%);
+  
+}
 .App {
   text-align: center;
 }

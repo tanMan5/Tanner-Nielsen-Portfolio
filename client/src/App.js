@@ -20,6 +20,7 @@ function App() {
           <Route path="/contact" component={Contact} />
       </Router>
       <Footer />
+     
     </>
   );
 }

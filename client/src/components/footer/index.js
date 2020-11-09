@@ -8,9 +8,9 @@ import "./style.css"
 class Footer extends Component {
     render() {
         return (
-            <Container>
-                <Navbar sticky="bottom" expand="lg" variant="light" bg="light">
-                    <Nav className="container navbar justify-content flex-column flex-sm-row" activeKey="/home">
+            <Container >
+                <Navbar sticky="bottom" expand="lg" variant="light" bg="light" >
+                    <Nav className="footerContainer"  className="container navbar justify-content flex-column flex-sm-row" activeKey="/home">
                         Made by Tanner Nielsen
                    
                     <div className="social-links">

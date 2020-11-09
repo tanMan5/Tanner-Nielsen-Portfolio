@@ -7,7 +7,7 @@ import "./style.css";
 
 function HomeContainer() {
     return (
-        <Container>
+        <Container className="homeContainer">
 
             <div className="banner-text">
             <Row className="justify-content-md-center">

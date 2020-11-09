@@ -25,13 +25,13 @@ function ProjectContainer() {
                 
                 <CardColumns>
                 {/* <CardDeck> */}
-                <Card style={{ borderTopRightRadius: 10, borderTopLeftRadius: 10, width: '22rem', }}>
+                <Card className="cardPro" style={{ borderTopRightRadius: 10, borderTopLeftRadius: 10, width: '22rem', boxShadow: "20px 10px 25px rgba(0,0,0,0.50),0 6px 6px rgba(0,0,0,0.23)" }}>
                         <Card.Img style={{ borderTopRightRadius: 10, borderTopLeftRadius: 10, height: 200   }}  variant="top" src={Image} alt="Quizzical" />
                         
                         <Card.Title>Quizzical</Card.Title>
-                            <Card.Text>
+                        <div>
                                 Lorem a;sdjf;lahsfang;ladghldas;flkdsfjoasdjfakdlfml;dakjsflajfkajf;ljads;fjal;faldm ljdfl;adjsf;lajdsf afl jal
-                            </Card.Text>
+                           
                             <Card.Footer>
                             <small className="text-muted">
                                 <span>
@@ -45,15 +45,16 @@ function ProjectContainer() {
                                 
                             </small>
                         </Card.Footer>
+                        </div>
                     </Card>
-                    <Card style={{ borderTopRightRadius: 10, borderTopLeftRadius: 10, width: '22rem', }}>
+                    <Card className="cardPro" style={{ borderTopRightRadius: 10, borderTopLeftRadius: 10, width: '22rem', boxShadow: "20px 10px 25px rgba(0,0,0,0.50),0 6px 6px rgba(0,0,0,0.23)" }}>
                         <Card.Img style={{ borderTopRightRadius: 10, borderTopLeftRadius: 10, height: 200   }}  variant="top" src={Image2} alt="Book Tracker"  />
                         
                         
                         <Card.Title>Book Tracker</Card.Title>
-                            <Card.Text>
+                        <div>
                                 Lorem a;sdjf;lahsfang;ladghldas;flkdsfjoasdjfakdlfml;dakjsflajfkajf;ljads;fjal;faldm ljdfl;adjsf;lajdsf afl jal
-                            </Card.Text>
+                           
                             <Card.Footer>
                             <small className="text-muted">
                                 <span>
@@ -68,14 +69,15 @@ function ProjectContainer() {
                             </small>
                             
                         </Card.Footer>
+                        </div>
                     </Card>
-                    <Card style={{ borderTopRightRadius: 10, borderTopLeftRadius: 10, width: '22rem', }}>
+                    <Card className="cardPro" style={{ borderTopRightRadius: 10, borderTopLeftRadius: 10, width: '22rem', boxShadow: "20px 10px 25px rgba(0,0,0,0.50),0 6px 6px rgba(0,0,0,0.23)" }}>
                         <Card.Img style={{ borderTopRightRadius: 10, borderTopLeftRadius: 10, height: 200   }}  variant="top" src={Image3} alt="GroudUp"  />
                         
-                        <Card.Title>Groud Up</Card.Title>
-                            <Card.Text>
+                        <Card.Title>Ground Up</Card.Title>
+                            <div>
                                 Lorem a;sdjf;lahsfang;ladghldas;flkdsfjoasdjfakdlfml;dakjsflajfkajf;ljads;fjal;faldm ljdfl;adjsf;lajdsf afl jal
-                            </Card.Text>
+                           
                             <Card.Footer>
                             <small className="text-muted">
                                 <span>
@@ -87,7 +89,9 @@ function ProjectContainer() {
                                     </a>
                                 </span>
                             </small>
+                            
                         </Card.Footer>
+                        </div>
                     </Card>
                     
                     
@@ -96,13 +100,13 @@ function ProjectContainer() {
                 <br />
                 <CardColumns>
                 {/* <CardDeck> */}
-                <Card style={{ borderTopRightRadius: 10, borderTopLeftRadius: 10, width: '22rem', }}>
+                <Card className="cardPro" style={{ borderTopRightRadius: 10, borderTopLeftRadius: 10, width: '22rem', boxShadow: "20px 10px 25px rgba(0,0,0,0.50),0 6px 6px rgba(0,0,0,0.23)" }}>
                         <Card.Img style={{ borderTopRightRadius: 10, borderTopLeftRadius: 10, height: 200   }} variant="top" src={Image4} alt="Password Generator"  />
                         
                         <Card.Title>Password Generator</Card.Title>
-                            <Card.Text>
+                        <div>
                                 Lorem a;sdjf;lahsfang;ladghldas;flkdsfjoasdjfakdlfml;dakjsflajfkajf;ljads;fjal;faldm ljdfl;adjsf;lajdsf afl jal
-                            </Card.Text>
+                           
                             <Card.Footer>
                             <small className="text-muted">
                                 <span>
@@ -115,14 +119,15 @@ function ProjectContainer() {
                                 </span>
                             </small>
                         </Card.Footer>
+                        </div>
                     </Card>
-                    <Card style={{ borderTopRightRadius: 10, borderTopLeftRadius: 10, width: '22rem', }}>
+                    <Card className="cardPro" style={{ borderTopRightRadius: 10, borderTopLeftRadius: 10, width: '22rem', boxShadow: "20px 10px 25px rgba(0,0,0,0.50),0 6px 6px rgba(0,0,0,0.23)" }}>
                         <Card.Img style={{ borderTopRightRadius: 10, borderTopLeftRadius: 10, height: 200   }}  variant="top" src={Image5} alt="Employee Tracker"   />
                         
                         <Card.Title>Employee Directory</Card.Title>
-                            <Card.Text>
+                        <div>
                                 Lorem a;sdjf;lahsfang;ladghldas;flkdsfjoasdjfakdlfml;dakjsflajfkajf;ljads;fjal;faldm ljdfl;adjsf;lajdsf afl jal
-                            </Card.Text>
+                           
                             <Card.Footer>
                             <small className="text-muted">
                                 <span>
@@ -135,14 +140,15 @@ function ProjectContainer() {
                                 </span>
                             </small>
                         </Card.Footer>
+                        </div>
                     </Card>
-                    <Card className="projectCards" style={{ borderTopRightRadius: 10, borderTopLeftRadius: 10, width: '22rem', }}>
+                    <Card className="cardPro" style={{ borderTopRightRadius: 10, borderTopLeftRadius: 10, width: '22rem', boxShadow: "20px 10px 25px rgba(0,0,0,0.50),0 6px 6px rgba(0,0,0,0.23)" }}>
                         <Card.Img style={{ borderTopRightRadius: 10, borderTopLeftRadius: 10, height: 200   }} variant="top" src={Image6} alt="Eat Da Burger"  />
                         
                         <Card.Title className="cardTitle">Eat Da Burger</Card.Title>
-                            <Card.Text className="cardText">
+                        <div>
                                 Lorem a;sdjf;lahsfang;ladghldas;flkdsfjoasdjfakdlfml;dakjsflajfkajf;ljads;fjal;faldm ljdfl;adjsf;lajdsf afl jal
-                            </Card.Text>
+                           
                             <Card.Footer>
                             <small className="text-muted">
                                 <span>
@@ -155,6 +161,7 @@ function ProjectContainer() {
                                 </span>
                             </small>
                         </Card.Footer>
+                        </div>
                     </Card>
                     
                     

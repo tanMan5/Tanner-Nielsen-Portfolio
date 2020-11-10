@@ -1,10 +1,19 @@
-.footerContainer {
-    color: green;
+
+img {
+    width: 215px;
 }
+
+.social-links {
+    text-align: center;
+}
+
 i {
     
-    color: rgb(175, 229, 233);
+    padding: 5px 10px;
+    
 }
-img {
-    width: 175px;
+
+.mainFooter {
+    color: rgb(175, 229, 233)
+
 }

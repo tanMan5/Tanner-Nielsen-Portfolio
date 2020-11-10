@@ -1,12 +1,28 @@
-
-
-
-
-.cardPro{
-    background: rgb(61, 121, 76);
-    background: linear-gradient(90deg, rgb(84, 145, 121) 0%, rgb(120, 241, 157) 50%, rgb(117, 236, 162) 100%);
-   
+.container {
+    padding-bottom: 20px;
 }
+.cardPro{
+
+    padding: 5px;
+    background: linear-gradient(145deg, rgb(125, 172, 175), rgb(218, 241, 243), rgb(171, 222, 226));
+    
+}
+
+.cardFooter {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.fas {
+    color: rgb(49, 68, 68);
+}
+
+.fab {
+    color: rgb(49, 68, 68);
+}
+ 
+
+
 
 
 

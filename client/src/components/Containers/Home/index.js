@@ -15,7 +15,7 @@ function HomeContainer() {
             </Row>
                 <hr />
                 <Row className="justify-content-md-center">
-                <Card.Img src={Image} alt="Tanner Nielsen" style={{ borderRadius: 60, width: 250, height: 300}} />
+                <Card.Img src={Image} alt="Tanner Nielsen" style={{ borderRadius: 60, width: 250, height: 275}} />
                 
                 <p>Front-end web developer with newly developed skills in HTML, CSS, JavaScript, and responsive web design. I recently earned a Certificate in Full Stack Web Development through the University of Arizona. I am a creative, confident, self-motivated person who is also a team player. With each project, I focus on creating an impactful and memorable user experience. I am ecstatic to expand my knowledge and refine my skills as part of joining a quality-driven team to build a better web experience.</p>
                 

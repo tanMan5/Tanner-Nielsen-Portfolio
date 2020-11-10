@@ -13,16 +13,23 @@ class Footer extends Component {
                 <Container >
            
                 <div>
-                    <div className="footerContainer"  className=" flex-column flex-sm-row" activeKey="/home">
-                        Made by <img src={Image} />
-                   
+                    
+                  
                     <div className="social-links">
-                    <a href="https://www.linkedin.com/in/tanernielsen/" rel="noopener noreferrer" target="_blank">
-                        <i className="fa fa-linkedin-square fa-7x" aria-hidden="true" />
+                    <span>
+                    <a  href="https://www.linkedin.com/in/tanernielsen/" rel="noopener noreferrer" target="_blank">
+                        <i className="fa fa-linkedin-square fa-3x" aria-hidden="true" />
                     </a>
+                    </span>
+                    
                     <a href="https://github.com/tanMan5" rel="noopener noreferrer" target="_blank">
-                        <i className="fa fa-github fa-7x" aria-hidden="true" />
+                        <i class="mainFooter" className="fa fa-github fa-3x" aria-hidden="true" />
                     </a>
+                    <br />
+                    <br />
+                    <div className="footerContainer"  className=" flex-column flex-sm-row" activeKey="/home">
+                         <img src={Image} />
+                   
                 </div>
                 </div>
           

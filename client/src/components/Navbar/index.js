@@ -13,13 +13,13 @@ class NavTabs extends Component {
                 <div className="global-nav">
                     <Nav className="container navbar justify-content-end flex-column flex-sm-row" activeKey="/home">
                         <Nav.Item>
-                            <Nav.Link style={{ color: "rgb(175, 229, 233)" }} href="/">Home</Nav.Link>
+                            <Nav.Link style={{ color: "rgb(171, 222, 226)" }} href="/">Home</Nav.Link>
                         </Nav.Item>
                         <Nav.Item>
-                            <Nav.Link style={{ color: "rgb(175, 229, 233)" }} href="/Projects">Projects</Nav.Link>
+                            <Nav.Link style={{ color: "rgb(171, 222, 226)" }} href="/Projects">Projects</Nav.Link>
                         </Nav.Item>
                         <Nav.Item>
-                            <Nav.Link style={{ color: "rgb(175, 229, 233)" }} href="/Contact">Contact</Nav.Link>
+                            <Nav.Link style={{ color: "rgb(171, 222, 226)" }} href="/Contact">Contact</Nav.Link>
                         </Nav.Item>
                         <Nav.Item>
                         <a  class="resume" href={Pdf} rel="noopener noreferrer" target="_blank">Resume</a>

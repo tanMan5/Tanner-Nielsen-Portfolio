@@ -30,8 +30,8 @@ function ProjectContainer() {
                         
                         <Card.Title>Quizzical</Card.Title>
                         <div>
-                                Lorem a;sdjf;lahsfang;ladghldas;flkdsfjoasdjfakdlfml;dakjsflajfkajf;ljads;fjal;faldm ljdfl;adjsf;lajdsf afl jal
-                            </div>
+                        This a trivia app that ranges in questions from TV shows, history, to sports, etc. There is no timer and the user will be allowed to compete against oneself for a high score. A wikipedia API link is included in each question/answer to which a user can click on to show more descriptive information.
+                        </div>
                             <hr />
                             <footer className="cardFooter">
                             <small className="text-muted">
@@ -55,8 +55,8 @@ function ProjectContainer() {
                         
                         <Card.Title>Book Tracker</Card.Title>
                         <div>
-                                Lorem a;sdjf;lahsfang;ladghldas;flkdsfjoasdjfakdlfml;dakjsflajfkajf;ljads;fjal;faldm ljdfl;adjsf;lajdsf afl jal
-                            </div>
+                        The Book Tracker app is a helpful tool for tracking books that you are currently reading and have finished reading.
+                        </div>
                             <hr />
                             <footer className="cardFooter">
                             <small className="text-muted">
@@ -79,7 +79,7 @@ function ProjectContainer() {
                         
                         <Card.Title>Ground Up</Card.Title>
                             <div>
-                                Lorem a;sdjf;lahsfang;ladghldas;flkdsfjoasdjfakdlfml;dakjsflajfkajf;ljads;fjal;faldm ljdfl;adjsf;lajdsf afl jal
+                            Users can visit the application from anywhere. On the home page, there is a display of the last drink and shop that was rated. There is also a display of the most popular shops. Users can sign/log in to give their reviews of drinks and shops.
                             </div>
                             <hr />
                             <footer className="cardFooter">
@@ -109,8 +109,8 @@ function ProjectContainer() {
                         
                         <Card.Title>Password Generator</Card.Title>
                         <div>
-                                Lorem a;sdjf;lahsfang;ladghldas;flkdsfjoasdjfakdlfml;dakjsflajfkajf;ljads;fjal;faldm ljdfl;adjsf;lajdsf afl jal
-                            </div>
+                        In this assignment, the application creates a secure password based on a criteria entered by the user.
+                        </div>
                             <hr />
                             <footer className="cardFooter">
                             <small className="text-muted">
@@ -131,8 +131,8 @@ function ProjectContainer() {
                         
                         <Card.Title>Employee Directory</Card.Title>
                         <div>
-                                Lorem a;sdjf;lahsfang;ladghldas;flkdsfjoasdjfakdlfml;dakjsflajfkajf;ljads;fjal;faldm ljdfl;adjsf;lajdsf afl jal
-                            </div>
+                        In this application I broke up the application's UI into components, managed component state, and responded to user events. This gives access to an employee directory.
+                        </div>
                             <hr />
                             <footer className="cardFooter">
                             <small className="text-muted">
@@ -153,7 +153,7 @@ function ProjectContainer() {
                         
                         <Card.Title className="cardTitle">Eat Da Burger</Card.Title>
                         <div>
-                                Lorem a;sdjf;lahsfang;ladghldas;flkdsfjoasdjfakdlfml;dakjsflajfkajf;ljads;fjal;faldm ljdfl;adjsf;lajdsf afl jal
+                        This application allows the user to add or devour a burger. This application was built with MySQL, Express, Node, Handlebars, and an ORM.
                             </div>
                             <hr />
                             <footer className="cardFooter">

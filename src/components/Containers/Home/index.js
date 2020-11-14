@@ -13,7 +13,7 @@ function HomeContainer() {
             <Row className="justify-content-md-center">
                 <h1>Full Stack Developer</h1>
             </Row>
-                <hr />
+                <hr style={{ borderTopColor: "rgb(171, 222, 226)" }} />
                 <Row className="justify-content-md-center">
                 <Card.Img src={Image} alt="Tanner Nielsen" style={{ borderRadius: 60, width: 250, height: 275}} />
                 

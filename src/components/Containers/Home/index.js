@@ -22,7 +22,7 @@ function HomeContainer() {
             </Row>
                 
                 <p>
-                    HTML/CSS | JavaScript/Jquery | Bootstrap | React | NodeJS | Express | SQL | MongoDB
+                    HTML/CSS | JavaScript/Jquery | Bootstrap | React | NodeJS | Express | SQL | MongoDB | Test Automation
                 </p>
               
             </div>

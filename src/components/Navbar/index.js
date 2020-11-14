@@ -3,7 +3,7 @@ import Nav from 'react-bootstrap/Nav';
 // import Navbar from 'react-bootstrap/Navbar';
 // import Container from 'react-bootstrap/Container';
 import './style.css';
-import Pdf from '../../Documents/resume.pdf';
+import Pdf from '../../Documents/Resume.pdf';
 import Pdf2 from '../../Documents/Certification.pdf'
 
 class NavTabs extends Component {

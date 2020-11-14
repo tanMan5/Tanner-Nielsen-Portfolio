@@ -10,7 +10,11 @@
     
 }
 
+body {
+    color: rgb(175, 229, 233);
+    font-weight: bold;  
 
+}
 
 a {
     color: rgb(175, 229, 233);

@@ -24,7 +24,7 @@ class NavTabs extends Component {
                         </Nav.Item>
                         <Nav.Item>
                         <a  class="resume" href={Pdf} rel="noopener noreferrer" target="_blank">Resume</a>
-                        </Nav.Item>
+                        </Nav.Item>/
                         <Nav.Item>
                         <a  class="resume" href={Pdf2} rel="noopener noreferrer" target="_blank">Cert.</a>
                         </Nav.Item>

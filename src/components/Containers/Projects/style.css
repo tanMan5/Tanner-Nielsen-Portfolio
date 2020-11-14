@@ -20,9 +20,17 @@
 .fab {
     color: rgb(49, 68, 68);
 }
- 
+.description {
+    text-align: center;
+}  
 
+.cardTitle {
+    text-align: center;
+}
 
+hr.break {
+    border: red;
+}
 
 
 
